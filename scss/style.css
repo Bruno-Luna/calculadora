@@ -1,0 +1,38 @@
+main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .container {
+  text-align: center;
+}
+
+main .container .numbers-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  gap: .4rem;
+}
+
+main .container .numbers-content .key {
+  padding: .6rem;
+  border: 1px solid #000;
+  border-radius: .8rem;
+}
+
+main .container .numbers-content .key:hover {
+  cursor: pointer;
+}
+
+main .container .numbers-content .empty {
+  background-color: #000;
+}
+/*# sourceMappingURL=style.css.map */
