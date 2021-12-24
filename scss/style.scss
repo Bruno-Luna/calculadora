@@ -1,0 +1,40 @@
+@mixin displayGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: .4rem;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .container{
+        text-align: center
+        
+    }
+}
+
+
+
+main {
+    .container{
+
+        .numbers-content{
+            @include displayGrid();
+            
+            .key{
+                padding: .6rem;
+                border: 1px solid #000;
+                border-radius: .8rem;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .empty{
+                background-color: #000;
+            }
+        }
+    }
+
+}
