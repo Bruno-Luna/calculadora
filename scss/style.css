@@ -25,7 +25,7 @@ main .container .numbers-content {
 main .container .numbers-content .key {
   padding: .6rem;
   border: 1px solid #000;
-  border-radius: .8rem;
+  border-radius: .4rem;
 }
 
 main .container .numbers-content .key:hover {
@@ -34,5 +34,18 @@ main .container .numbers-content .key:hover {
 
 main .container .numbers-content .empty {
   background-color: #000;
+}
+
+main .container .viewfinder {
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: .4rem;
+  margin: .6rem 0;
+  text-align: end;
+}
+
+main .container .viewfinder span {
+  position: relative;
+  right: .4rem;
 }
 /*# sourceMappingURL=style.css.map */
